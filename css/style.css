@@ -33,3 +33,33 @@ body{
 }
 
 /* Navbar Area End */
+
+/* Banner Section Start */
+
+#banner{
+    padding-top: 230px;
+}
+
+.banner-content h1{
+    font-size: 75px;
+    font-weight: bold;
+
+}
+.banner-content p{
+    color: var(--pColor);
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+
+.banner-content button {
+    padding: 15px 42px;
+    background-color: var(--mainColor);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Banner Section End */
