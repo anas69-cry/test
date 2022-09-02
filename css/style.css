@@ -200,6 +200,7 @@ body {
     width: 609px;
     margin: 0 auto;
     padding-bottom: 25px;
+    color: var(--pColor);
 }
 
 .service-content{
@@ -233,3 +234,46 @@ body {
 padding-bottom: 32px !important;
 }
 /* Service Section End */
+
+/* Work Section Srart */
+#work-section {
+    background-color: #F3F3F3;
+}
+
+.work-header{
+    margin-top: 80px;
+    padding-bottom: 72px;
+}
+.work-header p{
+
+    color: var(--pColor);
+}
+.work-items{
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.work-items h4{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.work-items p {
+    font-size: 16px;
+    padding: 0px 31px;
+}
+
+.work-items img{
+    border-radius: 20px;
+    height: 311px;
+    width: 100%;
+    object-fit: cover;
+}
+.work-content h4 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.work-content{
+    padding-bottom:30px ;
+}
+/* Work Section End */
