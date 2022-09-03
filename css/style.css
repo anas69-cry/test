@@ -40,9 +40,11 @@ body {
 #banner {
     padding-top: 230px;
 }
+
 .banner-content {
     padding-bottom: 288px;
 }
+
 .banner-content h1 {
     font-size: 75px;
     font-weight: bold;
@@ -73,20 +75,20 @@ body {
     border-top-left-radius: 100px;
 }
 
-.left-top-img{
+.left-top-img {
     width: 122px;
     height: 122px;
     background-color: #FFC44A;
 }
 
-.left-bottom-img{
+.left-bottom-img {
     height: 205px;
     width: 205px;
     background-color: #6A4DF4;
     border-bottom-left-radius: 100px;
 }
 
-.right-section-wrapper{
+.right-section-wrapper {
     position: relative;
 }
 
@@ -99,6 +101,7 @@ body {
     top: -106px;
     right: 70px;
 }
+
 .right-midle-img {
     height: 102px;
     width: 102px;
@@ -118,45 +121,46 @@ body {
     right: -73px;
     padding-bottom: 150px;
 }
+
 /* Banner Section End */
 
 /* Success Section Start */
 
-.success-bg{
+.success-bg {
     background-color: #F8F6FE;
     border-radius: 20px;
     padding: 86px 50px;
     margin-bottom: 150px;
 }
 
-.success-text h4{
+.success-text h4 {
     font-size: 25px;
     color: var(--mainColor);
     margin-bottom: 0;
     font-weight: 500;
 }
 
-.success-text p{
+.success-text p {
     font-size: 35px;
     font-weight: 600;
     line-height: 1.2;
     padding-top: 15px;
 }
 
-.numbers h3{
+.numbers h3 {
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 10px;
     font-weight: bold;
 }
 
-.numbers p{
+.numbers p {
     font-size: 20px;
     color: var(--pColor);
     font-weight: 500;
 }
 
-.Success-img{
+.Success-img {
     width: 35px;
     height: 35px;
     border: 3px solid #fff;
@@ -165,37 +169,39 @@ body {
     margin-left: -15px;
 }
 
-.Success-img img{
+.Success-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.Success-img:first-child{
+.Success-img:first-child {
     margin-left: 0;
 }
 
-.success-icons{
+.success-icons {
     margin-right: 5px;
 }
 
-.numbers p u{
+.numbers p u {
     color: var(--mainColor);
 
 }
+
 /* Success Section End */
 
 /* Service Section Start */
-#service{
+#service {
     padding-bottom: 50px;
 }
-.service-head h2{
+
+.service-head h2 {
     font-size: 45px;
     font-weight: bold;
     padding-bottom: 20px;
 }
 
-.service-head p{
+.service-head p {
     font-size: 16px;
     width: 609px;
     margin: 0 auto;
@@ -203,77 +209,171 @@ body {
     color: var(--pColor);
 }
 
-.service-content{
+.service-content {
     margin-top: 26px;
     padding: 46px 49px;
     border-radius: 20px;
     text-align: center;
-   transition: 0.3s;
-  
+    transition: 0.3s;
+
 }
-.service-content:hover{
- -webkit-box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
- -moz-box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
- box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
+
+.service-content:hover {
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
+    box-shadow: 0px 0px 18px 1px rgba(115, 115, 115, 0.59);
 }
-.service-content img{
+
+.service-content img {
     padding-bottom: 40px;
 }
 
-.service-content h3{
+.service-content h3 {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 10px;
 }
-.service-content p{
+
+.service-content p {
     padding-bottom: 20px;
     font-size: 16px;
 }
 
 .service-content-img {
-padding-bottom: 32px !important;
+    padding-bottom: 32px !important;
 }
+
 /* Service Section End */
 
 /* Work Section Srart */
 #work-section {
     background-color: #F3F3F3;
+    padding-bottom: 100px;
 }
 
-.work-header{
+.work-header {
     margin-top: 80px;
     padding-bottom: 72px;
 }
-.work-header p{
+
+.work-header p {
 
     color: var(--pColor);
 }
-.work-items{
+
+.work-items {
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
 }
-.work-items h4{
+
+.work-items h4 {
     font-size: 20px;
     font-weight: bold;
-    
+
 }
+
 .work-items p {
     font-size: 16px;
     padding: 0px 31px;
 }
 
-.work-items img{
+.work-items img {
     border-radius: 20px;
     height: 311px;
     width: 100%;
     object-fit: cover;
 }
+
 .work-content h4 {
     padding-top: 30px;
     padding-bottom: 5px;
 }
-.work-content{
-    padding-bottom:30px ;
+
+.work-content {
+    padding-bottom: 30px;
 }
+
 /* Work Section End */
+
+/* Agenc Section Start */
+
+#agenc {
+    padding-top: 150px;
+    padding-bottom: 270px;
+}
+
+.agenc-header h2 {
+    padding-right: 296px;
+    padding-bottom: 10px;
+}
+
+.agenc-header p {
+    font-size: 16px;
+    color: var(--pColor);
+    padding-right: 242px;
+    padding-bottom: 85px;
+}
+
+.agenc-content h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.agenc-content p {
+    padding-right: 25px;
+    font-size: 16px;
+    color: var(--pColor);
+}
+
+.agenc-content:nth-child(2) {
+    margin-top: 30px;
+}
+
+.agenc-content:nth-child(3) {
+    margin-top: 30px;
+    margin-left: 171px;
+}
+.agenc-imgs{
+    position: relative;
+}
+.agenc-imgs picture:first-child{
+    width: 349px;
+    height: 349px;
+    border-radius: 30px;
+    object-fit: cover;
+    
+}
+
+.agenc-box-1 {
+    height: 188px;
+    width: 188px;
+    border-top-right-radius: 100px;
+    background-color: var(--mainColor);
+    position: absolute;
+    top: 161px;
+    left: 389px;
+}
+
+.agenc-box-2 {
+    height: 235px;
+    width: 257px;
+    border-bottom-left-radius: 100px;
+    background-color: #4A92FF;
+    position: absolute;
+    top: 376px;
+    left: 12px;
+}
+
+.agenc-imgs picture:last-child {
+    width: 205px;
+    height: 205px;
+    border-radius: 30px;
+    object-fit: cover;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    top: 376px;
+    left: 300px;
+}
+/* Agenc Section End */
